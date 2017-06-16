@@ -1,0 +1,15 @@
+_Store
+*.log
+node_modules
+_tmp
+build
+*.node
+components
+coverage
+*.orig
+.idea
+sandbox
+test/out-fixtures/*
+test/watch-*.txt
+gulp.1
+bower_components
