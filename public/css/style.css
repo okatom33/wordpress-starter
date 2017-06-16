@@ -708,6 +708,19 @@ a {
   a:active {
     color: #0ff; }
 
+/**
+* WordpressプラグインAddQuickTag用のクラス
+*/
+span.aqtBold {
+  font-weight: bold; }
+
+span.aqtBoldRed {
+  color: #f00;
+  font-weight: bold; }
+
+span.aqtUnderline {
+  text-decoration: underline; }
+
 .listSns {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -767,3 +780,13 @@ a {
     display: block;
     width: 100%;
     height: 100%; }
+
+span.aqtBold {
+  font-weight: bold; }
+
+span.aqtBoldRed {
+  color: #f00;
+  font-weight: bold; }
+
+span.aqtUnderline {
+  text-decoration: underline; }
