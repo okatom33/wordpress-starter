@@ -1,0 +1,137 @@
+[
+    {
+        "key": "group_59438d3dc0bd6",
+        "title": "meta \/ ogp",
+        "fields": [
+            {
+                "key": "field_59439aaa4a0f8",
+                "label": "ページ説明文(任意)",
+                "name": "meta-description",
+                "type": "textarea",
+                "instructions": "この投稿・ページの説明文を入力してください",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 4,
+                "new_lines": ""
+            },
+            {
+                "key": "field_59438d682b535",
+                "label": "SNSタイトル(任意）",
+                "name": "og-title",
+                "type": "text",
+                "instructions": "この投稿・ページがSNSにシェアされる際に、表示させたいタイトルを入力してください",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_59438d9e94323",
+                "label": "SNS説明文(任意）",
+                "name": "og-description",
+                "type": "textarea",
+                "instructions": "この投稿・ページがSNSにシェアされる際に、表示させたい説明文を入力してください",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 5,
+                "new_lines": ""
+            },
+            {
+                "key": "field_59438ead46194",
+                "label": "SNS画像(任意）",
+                "name": "og-image",
+                "type": "image",
+                "instructions": "この投稿・ページがシェアされる際に、表示したい画像を追加してください(推奨サイズ: ヨコ1200px タテ630px)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_59438e1179558",
+                "label": "SNSにシェアされるURL(任意）",
+                "name": "og-select",
+                "type": "radio",
+                "instructions": "この投稿・ページがシェアされる際に、優先されるURLを選択してください(殆どの場合、このページのURLで問題ありません)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "このページのURL",
+                    "2": "トップページ"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": 1,
+                "layout": "horizontal",
+                "return_format": "value"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ],
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 99,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": "metaとOGPを編集するフィールド"
+    }
+]
