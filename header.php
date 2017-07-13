@@ -42,7 +42,7 @@
 <meta name="twitter:site" content="@hoge" />
 <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 <meta name="format-detection" content="telephone=no">
-<link rel="stylesheet" type="text/css" href="/css/common.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri() ?>" />
 <?php wp_head() ?>
 <!-- この下にGoogleAnalyticsのコードを挿入してください -->
 </head>
