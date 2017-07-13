@@ -20,10 +20,9 @@ body {
 
   // アンチエイリアス
   // 参考: http://creator.dwango.co.jp/14128.html
-  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: unset;
   @media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 }
