@@ -15,3 +15,6 @@
 
   ### キャッシュ
   - WP Super Cache
+
+  ### 人気ランキング
+  - WP-PostViews
